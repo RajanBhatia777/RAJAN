@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .design{
+            border: 2px solid black;
+            padding-top: 30px;
+            width: 10cm;
+            height: 10cm;
+            padding-right: 10px;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+            
+            
+
+        }
+        .btn{
+            margin-top: 7.5cm;
+            position: relative;
+            left: 84%;
+            
+            
+        }
+
+    </style>
+</head>
+<body>
+   <center><h2>Welcome To logInpage</h2></center>
+
+   <div class="design">
+   <form>
+         <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name">
+
+        </div>
+        <br>
+
+        <div>
+            <label for="pass">Password:</label>
+            <input type="password" id="pass">
+
+        </div>
+
+         <div class="btn">
+             <input type="button" value="Submit:" id="sub" onclick=login()>
+
+         </div>
+
+        </form>
+    </div>
+
+<script>
+    function login()
+    {
+        var name=document.getElementById('name').value;
+        var passs=document.getElementById('pass').value;
+
+        if(name=="Rajan" && passs==1234)
+        {
+            location.assign("http://youtube.com")
+            
+            
+        }
+        else{
+            alert("incorrect password and username")
+        }
+    }
+</script>
+
+
+</body>
+
+</html>

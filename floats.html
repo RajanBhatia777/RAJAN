@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       .box{
+
+            width: 900px;
+            border-width: 4px;
+            border-color: black;
+            border-style: solid;
+            margin: auto;
+            display: grid;
+            /* grid-template-columns: 1fr 1fr; */
+            /* grid-template-rows: 1f ; */
+        }
+
+        .item{
+            border-style: solid;
+            border-width: 3px;
+            border-color: black; 
+            margin: 15px;
+            background-color: rgb(209, 171, 171);
+            grid-column: 1;
+
+        }
+
+        .item3{
+            grid-column: 1/ span 3;
+            grid-row: 3;
+        }
+
+        
+
+        /* #fruitspara{
+            float: left;
+            
+        }
+        #vegetablespara{
+            float: right;
+            width: 48%;
+        } */
+
+
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div id="float" class="item">
+            <h2> Fruits</h2>
+            <p  id="fruitspara" class="item1">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, libero a quia ullam minus laudantium, cumque iure, 
+                ad doloribus tenetur inventore! Harum libero hic ex nulla quasi qui aliquam doloremque?Lorem ipsum dolor sit amet consectetur
+                 
+            </p>
+
+
+        </div>
+
+
+        <div id="float" class="item">
+            <h2> Vegetables</h2>
+            <p  id="Vegetablespara" class="item1">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, libero a quia ullam minus laudantium, cumque iure, ad doloribus tenetur inventore! Harum libero hic ex nulla quasi qui aliquam doloremque?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis nobis maiores aut sequi, eum vel qui magni nesciunt ipsum sint soluta ullam optio. Aliquid quibusdam eius modi asperiores veniam quaerat.
+            </p>
+
+
+        </div>
+
+        <div id="float" class="item">
+            <h2> Stationary</h2>
+            <p  id="Stationarypara" class="item1 item3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, libero a quia ullam minus laudantium, cumque iure, ad doloribus tenetur inventore! Harum libero hic ex nulla quasi qui aliquam doloremque?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque, fuga fugiat voluptate neque praesentium commodi doloribus repellendus similique laboriosam accusantium unde ab iste aliquid deleniti voluptates aut ex esse quos!
+            </p>
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+    </div>
+</body>
+</html>

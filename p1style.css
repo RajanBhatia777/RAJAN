@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans',sans-serif;
+    margin:0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    /* background-color:black; */
+    /* color: white; */
+    background-image: url("https://img5.goodfon.com/wallpaper/nbig/b/32/zima-sneg-sugroby-derevia-eli-zakat.jpg");
+    background-size: cover;
+
+}
+h1{
+    font-weight: bold;
+    font-size: 4rem;
+    margin-top: 5rem;
+    opacity: .7;
+    letter-spacing: 1px;
+}
+.countdown-container{
+    display: flex;
+}
+.bigtext{
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+    font-weight: bold;
+}
+.countdown-el{
+    text-align: center;
+}
+.countdown-el span{
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+    opacity: .9;
+}
+
+.container{
+    /* border: 1px solid white; */
+    background-color: whitesmoke;
+    color: black;
+    margin-right: 1rem;
+    border-radius: .9rem;
+    opacity: .6;
+}
+
+.container:hover{
+    transform: scale(1.2);
+    transition: transform .5s ease-in;
+}
+
+.container:not(:hover){
+    transition: transform .5s ease-out;
+}
